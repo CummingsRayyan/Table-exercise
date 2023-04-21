@@ -1,0 +1,64 @@
+html body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mu21 {
+   background-color: gray;
+
+}
+
+.mo21 {
+    background-color: black;
+    color: white;
+}
+.fo21 {
+    background-color: pink;
+}
+.fu21 {
+    background-color: red;
+    color: black;
+}
+
+table,th,td {
+    border: 2px solid black; 
+    padding: 5px;
+}
+
+table{
+    width: 60%;
+}
+    
+th {
+    border-radius: 999px;
+}
+td {
+    border-radius: 999px;
+}
+h1 { 
+    width: 1000px ;  
+    text-decoration: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,190,88,1) 35%, rgba(0,212,255,1) 100%); ;
+
+}
+ .males {
+        list-style: none;
+        padding: 5px 15px;
+        background-image: url(
+"./male.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+ }
+
+ .females {
+    list-style: none;
+        padding: 5px 15px;
+        background-image: url(./female.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+
+ }
